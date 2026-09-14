@@ -1,0 +1,2 @@
+>NM_000942.5 Homo sapiens peptidylprolyl isomerase B (PPIB), mRNA
+>NP_000933.1 peptidyl-prolyl cis-trans isomerase B precursor [Homo sapiens]
