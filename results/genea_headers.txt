@@ -1,0 +1,2 @@
+genea.fasta:>NM_012248.4 Homo sapiens selenophosphate synthetase 2 (SEPHS2), mRNA
+genea_pro.fasta:>NP_036380.2 selenide, water dikinase 2 [Homo sapiens]
