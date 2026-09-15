@@ -1,0 +1,4 @@
+Gene	Category	CDS length	Translated length	Deposited length	Identical	First mismatch
+SEPHS2	A	1348	449	448	N	1
+MT-ND3	B	346	115	115	N	1
+PPIB	C	651	217	216	N	None
