@@ -7,18 +7,17 @@ This project involves retrieval, processing, translation, and comparison of nucl
 ## Steps Performed
 1. Selected one gene from each assigned category.
 2. Searched the NCBI Nucleotide database for the selected gene.
-3. Refined the search to obtain the human RefSeq mRNA record.
-4. Downloaded the mRNA sequence in FASTA format.
-5. Downloaded the  GenBank and recorded the accession, organism, CDS coordinates, and protein ID.
-6. Used the protein ID to retrieve the corresponding deposited protein sequence in FASTA format.
-7. Extracted FASTA header lines from the downloaded files.
-8. Extracted the CDS from the mRNA sequence using the GenBank CDS coordinates.
-9. Checked the CDS length and its divisibility by 3.
-10. Translated the CDS using the appropriate genetic code.
-11. Compared the translated protein sequence with the deposited protein sequence.
-12. Identified if any, first mismatch, where applicable and cross-checked the translation using Biopython.
-13. Developed a Python pipeline to perform the analysis for all three genes.
-14. Generated a single summary table containing the results for all three genes.
+3. Downloaded the sequence in FASTA format.
+4. Downloaded the GenBank and recorded the accession, organism, CDS coordinates, and protein ID.
+5. Used the protein ID to retrieve the corresponding deposited protein sequence in FASTA format.
+6. Extracted FASTA header lines from the downloaded files.
+7. Extracted the CDS from the mRNA sequence using the GenBank CDS coordinates.
+8. Checked the CDS length and its divisibility by 3.
+9. Translated the CDS using the appropriate genetic code.
+10. Compared the translated protein sequence with the deposited protein sequence.
+11. Identified if any mismatch and cross-checked the translation using Biopython.
+12. Developed a Python pipeline to perform the analysis for all three genes.
+13. Generated a single summary table containing the results for all three genes.
 
 ## Commands and tools used
 
