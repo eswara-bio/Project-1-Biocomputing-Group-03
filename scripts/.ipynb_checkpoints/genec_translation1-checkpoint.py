@@ -19,13 +19,12 @@ genetic_codon = {
     "GAT": "D", "GAC": "D", "GAA": "E", "GAG": "E",
     "GGT": "G", "GGC": "G", "GGA": "G", "GGG": "G"
 }
-with open("../results/genec_cds.txt", "r") as fh:
+with open("results/genec_cds.txt", "r") as fh:
      cds = fh.read().strip()
 protein = ""
 for i in range(0, len(cds),3):
      codon = cds[i:i+3]
      amino_acid = genetic_codon[codon]
      protein = protein + amino_acid
-print("First 30 residues:", protein[:30])
-print("Total protein length:", len(protein))
-
+with open("results/genec_translation.fasta", "w") as file:
+    file.write(protein)
