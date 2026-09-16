@@ -1,4 +1,4 @@
-Gene Name,Category,CDS Length,Translated Length,Deposited Length,Identical (Y/N),First Mismatch Position
+Gene Name,Category,CDS Length,Translated Length, Deposited Length,Identical (Y/N), Mismatch Position
 SEPHS2,Selenoprotein (A),1347,448,448,N,60
 MT-ND3,Mitochondrial (B),346,115,115,Y,N/A
 PPIB,Nuclear (C),651,216,216,Y,N/A
