@@ -1,5 +1,7 @@
 # Biocomputing (BE623) — Project 1
 
+# Group no: 3
+
 ## Project Overview
 
 This project involves retrieval, processing, translation, and comparison of nucleotide and protein sequences obtained from the NCBI database. Three genes representing different biological categories were analysed.
@@ -38,5 +40,6 @@ This project involves retrieval, processing, translation, and comparison of nucl
 | Eswara G R       | Selenoprotein (A)   | SEPHS2 |
 | Srajan Dehariya  | Mitochondrial (B)   | MT-ND3 |
 | Balapravena A S  | Nuclear control (C) | PPIB   |
+
 
 Note: The complete gene piple line is in scripts/gene_pipeline.py, while the script processes all three genes and generates output in results/summary_table.csv
