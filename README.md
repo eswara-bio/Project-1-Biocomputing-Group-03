@@ -1,6 +1,6 @@
 # Biocomputing (BE623) — Project 1
 
-# Group no: 3
+## Group no: 3
 
 ## Project Overview
 
@@ -42,4 +42,4 @@ This project involves retrieval, processing, translation, and comparison of nucl
 | Balapravena A S  | Nuclear control (C) | PPIB   |
 
 
-Note: The complete gene piple line is in scripts/gene_pipeline.py, while the script processes all three genes and generates output in results/summary_table.csv
+Note: The complete gene pipeline is in scripts/gene_pipeline.py, while the script processes all three genes and generates output in results/summary_table.csv
